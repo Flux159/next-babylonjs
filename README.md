@@ -2,15 +2,18 @@ This is a [Next.js](https://nextjs.org/) project with [typescript](https://www.t
 
 ## Getting Started
 
-First, run the development server:
+Clone this repo, then run the development server:
 
 ```bash
+yarn
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file. You can also update `pages/fullscreen.tsx` to update the fullscreen view.
+
+The key differences between `create-next-app` and this repo are the custom configuration for babylon ES6 modules in `next.config.js` using `next-transpile-modules` and a slight change to `tsconfig.json` to use the "allowSyntheticDefaultImports" property. Other than that, this repo mostly just uses the example from the `react-babylonjs` repo.
 
 ## Building
 
