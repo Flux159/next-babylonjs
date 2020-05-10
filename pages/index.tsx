@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import NextBabylon from 'src/components/NextBabylon';
 
 export default function Home() {
   return (
@@ -20,8 +21,7 @@ export default function Home() {
           For a full screen view, see <code>pages/fullscreen.tsx</code>
         </p>
 
-        <p className="description">
-        </p>
+        <NextBabylon />
 
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
