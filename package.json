@@ -16,16 +16,16 @@
     "@react-spring/animated": "^9.0.0-beta.33",
     "@react-spring/core": "^9.0.0-beta.33",
     "@react-spring/shared": "^9.0.0-beta.33",
-    "next": "9.3.6",
-    "next-transpile-modules": "^3.3.0",
+    "next": "9.5.5",
+    "next-transpile-modules": "4.1.0",
     "react": "16.13.1",
-    "react-babylonjs": "^2.2.0",
+    "react-babylonjs": "2.2.0",
     "react-dom": "16.13.1",
     "react-reconciler": "^0.25.1"
   },
   "devDependencies": {
     "@types/node": "^13.13.5",
     "@types/react": "^16.9.34",
-    "typescript": "^3.8.3"
+    "typescript": "4.0.3"
   }
 }

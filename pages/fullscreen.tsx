@@ -1,6 +1,6 @@
 import NextBabylon from "src/components/NextBabylon";
 
-export default () => {
+export default function Fullscreen() {
   return (
     <div style={{ flex: 1, display: "flex", height: "100vh", width: "100vw" }}>
       <NextBabylon />
