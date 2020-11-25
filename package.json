@@ -8,24 +8,24 @@
     "start": "next start"
   },
   "dependencies": {
-    "@babylonjs/core": "^4.1.0",
-    "@babylonjs/gui": "^4.1.0",
-    "@babylonjs/inspector": "^4.1.0",
-    "@babylonjs/loaders": "^4.1.0",
+    "@babylonjs/core": "^4.2.0",
+    "@babylonjs/gui": "^4.2.0",
+    "@babylonjs/inspector": "^4.2.0",
+    "@babylonjs/loaders": "^4.2.0",
     "@react-spring/addons": "^9.0.0-beta.33",
     "@react-spring/animated": "^9.0.0-beta.33",
     "@react-spring/core": "^9.0.0-beta.33",
     "@react-spring/shared": "^9.0.0-beta.33",
-    "next": "9.5.5",
+    "next": "10.0.3",
     "next-transpile-modules": "4.1.0",
-    "react": "16.13.1",
-    "react-babylonjs": "2.2.0",
-    "react-dom": "16.13.1",
-    "react-reconciler": "^0.25.1"
+    "react": "17.0.1",
+    "react-babylonjs": "2.3.2",
+    "react-dom": "17.0.1",
+    "react-reconciler": "^0.26.1"
   },
   "devDependencies": {
-    "@types/node": "^13.13.5",
-    "@types/react": "^16.9.34",
-    "typescript": "4.0.3"
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "typescript": "4.1.2"
   }
 }
